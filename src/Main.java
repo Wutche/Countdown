@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the number of hours to countdown: ");
+        System.out.print("Enter Music Duration: ");
         int hours = scanner.nextInt();
         int totalSeconds = hours * 60 * 60;
 
